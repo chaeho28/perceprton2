@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="KO">
+    <head>
+        <meta charset="UTF-8">
+        <title>MMDP_대한민국공군 운용기 판별시스템</title>
+    </head>
+	
+    <body>
+	<div class="bg-img">
+	<div class="content">
+        <div class = "index-main">
+        <div style = "width : 100%; padding-top : 5%;">
+            <div class = "header-content">
+                 <h1 style = "text-align: center;color: blue"><span class="header-content-text">Military CNN PROJECT</span></h1>
+                <h2 style ="..."><span class ="header-content-text">대한민국 공군에서 운용기에 대한 교육 프로그램입니다.</span></h2>
+            </div>
+        </div>
+
+        <div class="upload-section">
+            <div class="upload-file">
+                <form class = "file-form" action="/success" method="post", enctype="multipart/form-data">
+                    <input class="file-form-input" type="file" , name = "file"/>
+                    <button class="btn btn-success btn-lg">업로드</button> 
+                </form>
+            </div>
+
+            <div class="uploadOR">
+                <span>아니면 링크를 입력해보세요!</span>
+            </div>
+
+            <div class="upload-link">
+                <form class = "link-form" action="/success" method="post", enctype="multipart/form-data">
+                    <input class="link-form-input" type="text" ,maxlength="1000" , name = "link" placeholder="링크나 주소 입력!"/>
+                    <button class="btn btn-success btn-lg">Proceed</button> 
+                </form>
+            </div>
+            <div class = "header-content-sub">
+                    <p style = "text-align: center; margin-top: 15px;color: red" class="header-content-info">{{error}}</p>
+            </div>
+        </div>
+
+        <div class = "footer">
+            <div class = "header-content-sub">
+                    <p style = "text-align: center;color: white" class="header-content-info">이 모델은 전투기 및 기타 비행 물체를 판단하기 위한 사이트입니다. </p>
+            </div>
+            <div class = "header-content-sub">
+                    <p style = "text-align: center;color:orange" class="header-content-info">공중급유기부터 방공무기까지 훈련된 군사교육자료로 활용계획에 있습니다.</p>
+            </div>
+        </div>
+	     </div>  
+	</div>			 
+	</div>	 
+    </body>
+</html>
